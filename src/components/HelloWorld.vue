@@ -151,7 +151,7 @@
     
     methods: {
       saludar(){
-        alert("Hola mundo")
+        // alert("Hola mundo")
       }
     },
 

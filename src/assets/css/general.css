@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+:root{
+    --color-negro1: #151515; 
+    --color-rojo1: #ff0000;
+    --color-rojo2: rgba(170, 5, 5, 0.733);
+}
