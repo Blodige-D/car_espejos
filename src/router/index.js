@@ -1,14 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Inicio from '@/views/Inicio.vue'
+import Espejos from '@/views/Espejos.vue'
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Inicio',
+    component: Inicio
+    
+  },
+  {
+    path: '/Espejos',
+    name:'Espejos',
+    component: Espejos
   },
   {
     path: '/about',
