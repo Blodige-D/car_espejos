@@ -1,0 +1,74 @@
+<template>
+  <div class="main-listaproductos">
+      <div class="section_listproductos">
+        <div class="contenedor__list">
+            <v-item-group active-class="primary">
+                <v-container>
+                    <v-row>
+                        <v-col
+                        v-for="(imagen,n) in imagenes"
+                        :key="n"
+                        cols="12"
+                        md="4"
+                        >
+                        <v-item v-slot="{ toggle }">
+                            <v-card
+                            class="d-flex align-center"
+                            dark
+                            height="200"
+                            @click="toggle"
+                            >
+                            <v-scroll-y-transition>
+                                <img class="list__img" :src="require(`@/assets/img/Espejos_retrovisores/${imagen}.jpg`)" alt="2">
+
+                            </v-scroll-y-transition>
+                            </v-card>
+                        </v-item>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-item-group>
+        </div>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+    name: 'Listaproductos',
+    data(){
+        return{
+            model: null,
+            imagenes: [
+                'A', 
+                'B',
+                'C',
+                'D',
+                'E',
+                'F',
+                'G',
+                'H',
+                'I',
+                'J',
+                'K',
+                'L'
+            ]
+        }
+    }
+}
+</script>
+    
+
+<style scoped>
+
+.contenedor__list{
+    padding: 80px;
+    border: 1px solid black;
+    margin: 80px 20px 0;
+}
+.list__img{
+    width: 276.02px;
+    height: 200px;
+    object-fit: cover;
+}
+</style>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Inicio from '@/views/Inicio.vue'
 import Espejos from '@/views/Espejos.vue'
+import Cerrajeria from '@/views/Cerrajeria.vue'
 
 
 Vue.use(VueRouter)
@@ -18,6 +19,11 @@ const routes = [
     path: '/Espejos',
     name:'Espejos',
     component: Espejos
+  },
+  {
+    path: '/Cerrajeria',
+    name: 'Cerrajeria',
+    component: Cerrajeria
   },
   {
     path: '/about',
