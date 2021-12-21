@@ -2,11 +2,11 @@
   <div class="main-espejos">
       <carespejos :imagen="ruta_imagen"/>
       <slider-1 :imagenSlider1="imagen_Espejos" :EnunciadoSlider1="Enunciado_Espejos"/>
-      <listaproductos/>
+      <listaproductos :imagenList="imagen_Espejos" :EnunciadoList="Enunciado_Espejo"/>
       <slider-1 :imagenSlider1="imagen_Farolas" :EnunciadoSlider1="Enunciado_Farolas"/>
-      <listaproductos/>
+      <listaproductos :imagenList="imagen_Farolas" :EnunciadoList="Enunciado_Farolas"/>
       <slider-1 :imagenSlider1="imagen_Stops" :EnunciadoSlider1="Enunciado_Stops"/>
-      <listaproductos/>
+      <listaproductos :imagenList="imagen_Stops" :EnunciadoList="Enunciado_Stops"/>
   </div>
 </template>
 

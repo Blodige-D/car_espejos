@@ -19,7 +19,7 @@
                             @click="toggle"
                             >
                             <v-scroll-y-transition>
-                                <img class="list__img" :src="require(`@/assets/img/Espejos_retrovisores/${imagen}.jpg`)" alt="2">
+                                <img class="list__img" :src="require(`@/assets/img/${Enunciado[2]}/${imagen}.jpg`)" alt="2">
 
                             </v-scroll-y-transition>
                             </v-card>
@@ -39,21 +39,13 @@ export default {
     data(){
         return{
             model: null,
-            imagenes: [
-                'A', 
-                'B',
-                'C',
-                'D',
-                'E',
-                'F',
-                'G',
-                'H',
-                'I',
-                'J',
-                'K',
-                'L'
-            ]
+            imagenes: this.imagenList,
+            Enunciado: this.EnunciadoList
         }
+    },
+    props:{
+        imagenList: null,
+        EnunciadoList: null
     }
 }
 </script>
