@@ -1,6 +1,7 @@
 <template>
   <div class="main-espejos">
     <carespejos :imagen="ruta_imagen" />
+    <parallax :imagenParallax="imagen_parallax"/>
     <slider-1
       :imagenSlider1="imagen_Espejos"
       :EnunciadoSlider1="Enunciado_Espejos"
@@ -42,13 +43,15 @@
 <script>
 import Carespejos from "../components/Carespejos.vue";
 import Listaproductos from "../components/Listaproductos.vue";
+import Parallax from '../components/Parallax.vue';
 import Slider1 from "../components/Slider1.vue";
 
 export default {
-  components: { Carespejos, Slider1, Listaproductos },
+  components: { Carespejos, Slider1, Listaproductos, Parallax },
   data() {
     return {
       ruta_imagen: "assets/img/CarEspejos.png",
+      imagen_parallax: "Banner_Espejos",
       imagen_Espejos: [
         "A",
         "B",

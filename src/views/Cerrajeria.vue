@@ -1,6 +1,7 @@
 <template>
   <div class="main-cerrajeria">
       <carespejos :imagen="ruta_imagen"/>
+      <parallax :imagenParallax="imagen_parallax"/>
 
       <slider-1 :imagenSlider1="imagen_Llaves" :EnunciadoSlider1="Enunciado_Llaves"/>
       <listaproductos :imagenList="imagen_Llaves" :EnunciadoList="Enunciado_Llaves"/>
@@ -20,11 +21,13 @@
 import Carespejos from '../components/Carespejos.vue'
 import Listaproductos from '../components/Listaproductos.vue'
 import Slider1 from '../components/Slider1.vue'
+import Parallax from '../components/Parallax.vue'
 export default {
-    components: { Carespejos, Slider1, Listaproductos },
+    components: { Carespejos, Slider1, Listaproductos, Parallax },
     data() {
         return {
             ruta_imagen: 'assets/img/CarEspejos.png',
+            imagen_parallax: "Banner_Cerrajeria",
             imagen_Llaves:[
             'A',
             'B',

@@ -54,7 +54,7 @@ export default {
 
 .contenedor__list{
     padding: 80px;
-    border: 1px solid black;
+    box-shadow: 0 3px 100px rgb(0 0 0 / 0.2);
     margin: 80px 20px 0;
 }
 .list__img{
