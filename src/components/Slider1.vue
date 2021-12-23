@@ -36,6 +36,7 @@
                                 >
                                     <v-scale-transition>
                                         <img class="slider__img" :src="require(`@/assets/img/${Enunciado[2]}/${imagen}.jpg`)" alt="2">
+                                        <!-- <img class="slider__img" :src="require(`@/assets/img/seguros/A.jpg`)" alt="2"> -->
                                     </v-scale-transition>
                                 </v-row>
                             </v-card>

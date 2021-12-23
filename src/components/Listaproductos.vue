@@ -19,8 +19,7 @@
                             @click="toggle"
                             >
                             <v-scroll-y-transition>
-                                <img class="list__img" :src="require(`@/assets/img/${Enunciado[2]}/${imagen}.jpg`)" alt="2">
-
+                                <img class="list__img" :src="require(`@/assets/img/${Enunciado[2]}/${imagen}.jpg`)" alt="">
                             </v-scroll-y-transition>
                             </v-card>
                         </v-item>
