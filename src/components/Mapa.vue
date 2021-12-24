@@ -14,14 +14,15 @@
         >
           <div class="box">
             <div class="thumb-line">
-              <iframe
+              <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15906.592656082572!2d-74.08060777730715!3d4.656676542893079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacad656428b9d433!2scar%20espejos!5e0!3m2!1ses!2sco!4v1639172089284!5m2!1ses!2sco"
                 width="531"
                 height="440"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
-              ></iframe>
+              ></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!4v1640317948929!6m8!1m7!1sjqvqI-P028mKofOKtu0LWA!2m2!1d4.655725186993926!2d-74.07280363173538!3f185.10779305635714!4f-6.149325510305346!5f1.9587109090973311" width="531" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
           <div class="seccion_palabras">
@@ -37,7 +38,7 @@
               <p class="" data-wow-delay=".3s">
                 Somos CarEspejos, uno de los mejores negocios de Carros
               </p>
-              <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+573017068179">Contacto con WhatsApp</a>
+              <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+573132639099&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!">Contacto con WhatsApp</a>
             </div>
           </div>
         </div>

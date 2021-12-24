@@ -1,7 +1,6 @@
 <template>
   <div class="main-cerrajeria">
     <carespejos :imagen="ruta_imagen" />
-    <parallax :imagenParallax="imagen_parallax" />
 
     <slider-1
       :imagenSlider1="imagen_Llaves"
@@ -51,7 +50,6 @@ export default {
   data() {
     return {
       ruta_imagen: "assets/img/CarEspejos.png",
-      imagen_parallax: "Banner_Cerrajeria",
       imagen_Llaves: [
         "A",
         "B",

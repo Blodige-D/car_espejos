@@ -25,8 +25,8 @@
                             <v-card
                             :color="active ? undefined : 'grey lighten-1'"
                             class="ma-4"
-                            height="400"
-                            width="700"
+                            height="200"
+                            width="300"
                             @click="toggle"
                             >
                                 <v-row
@@ -49,7 +49,6 @@
 </template>
 
 <script>
-
 
 export default {
     name: 'Slider1',
@@ -88,8 +87,8 @@ export default {
 }
 
 .slider__img{
-    width: 700px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 </style>

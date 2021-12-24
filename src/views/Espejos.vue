@@ -1,7 +1,6 @@
 <template>
   <div class="main-espejos">
     <carespejos :imagen="ruta_imagen" />
-    <parallax :imagenParallax="imagen_parallax"/>
     <slider-1
       :imagenSlider1="imagen_Espejos"
       :EnunciadoSlider1="Enunciado_Espejos"
@@ -51,7 +50,6 @@ export default {
   data() {
     return {
       ruta_imagen: "assets/img/CarEspejos.png",
-      imagen_parallax: "Banner_Espejos",
       imagen_Espejos: [
         "A",
         "B",

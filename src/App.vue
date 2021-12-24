@@ -17,13 +17,14 @@
       <v-spacer></v-spacer>
       <div class="social">
         <div class="social__item"><a class="icon icon-sm fa fa-facebook social__icon" href="#"></a></div>
-        <div class="social__item"><a class="icon icon-sm fa fa-whatsapp social__icon" href="https://api.whatsapp.com/send?phone=+573017068179"></a></div>
+        <div class="social__item"><a class="icon icon-sm fa fa-whatsapp social__icon" href="https://api.whatsapp.com/send?phone=+573132639099&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!"></a></div>
       </div>
-    </v-app-bar>
 
+    </v-app-bar>
     <v-main>
       <router-view/>
     </v-main>
+    <a href="https://api.whatsapp.com/send?phone=+573132639099&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
   </v-app>
 </template>
 
@@ -184,5 +185,22 @@ nav a.router-link-exact-active{
   color:var(--color-rojo2);
 }
 
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
 
 </style>
