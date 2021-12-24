@@ -7,6 +7,8 @@
         <slider-1 :imagenSlider1="imagen_Direccionales" :EnunciadoSlider1="Enunciado_Direccionales"/>
         <parallax :imagenParallax="imagen_parallax[1]"/>
         <slider-1 :imagenSlider1="imagen_Llaves" :EnunciadoSlider1="Enunciado_Llaves"/>
+        <servicios/>
+        <mapa/>
     </div>
 </template>
 
@@ -15,9 +17,11 @@ import Banner from '../components/Banner.vue'
 import Parallax from '../components/Parallax.vue'
 import Slider2 from '../components/Slider2.vue'
 import Slider1 from '../components/Slider1.vue'
+import Servicios from '../components/Servicios.vue'
+import Mapa from '../components/Mapa.vue'
 
 export default {
-  components: { Banner, Slider2, Parallax, Slider1},
+  components: { Banner, Slider2, Parallax, Slider1, Servicios, Mapa},
     data() {
         return {
             ruta_imagen:'assets/img/Banner.png',
