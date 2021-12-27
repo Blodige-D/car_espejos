@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Inicio from '@/views/Inicio.vue'
 import Espejos from '@/views/Espejos.vue'
 import Cerrajeria from '@/views/Cerrajeria.vue'
+import Login from '@/views/Login.vue'
 
 
 Vue.use(VueRouter)
@@ -25,12 +26,9 @@ const routes = [
     component: Cerrajeria
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/Login',
+    name: 'Login',
+    component: Login
   }
 ]
 

@@ -7,12 +7,12 @@
         hide-delimiter-background
         show-arrows-on-hover
       >
-        <v-carousel-item v-for="(slide, i) in imagen" :key="i">
-          <v-sheet :imagenes="imagen[i]" height="100%">
+        <v-carousel-item v-for="(slide, i) in imagenSlider2" :key="i">
+          <v-sheet :imagenes="imagenSlider2[i]" height="100%">
             <v-row class="fill-height" align="center" justify="center">
               <img
                 class="slider__img"
-                :src="require(`@/assets/img/variedades/${slide}.jpg`)"
+                :src="require(`@/assets/img/variedades/${slide.fields.img}`)"
                 alt="2"
               />
             </v-row>
@@ -29,11 +29,10 @@ export default {
   data() {
     return {
       model: null,
-      imagen: this.imagenSlider2,
     };
   },
   props: {
-    imagenSlider2: null,
+    imagenSlider2: [],
   },
 };
 </script>

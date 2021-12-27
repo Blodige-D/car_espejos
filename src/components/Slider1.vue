@@ -2,8 +2,8 @@
     <div class="main-slider1">
         <section class="seccion__slider1">
             <div class="contenedor_texto">
-                <h1>{{Enunciado[0]}}</h1>
-                <p>{{Enunciado[1]}}</p>
+                <h1>{{EnunciadoSlider1[0]}}</h1>
+                <p>{{EnunciadoSlider1[1]}}</p>
             </div>
             <div class="contenedor_slider1">
                 <v-sheet
@@ -18,7 +18,7 @@
                     show-arrows
                     >
                         <v-slide-item
-                            v-for="(imagen,n) in imagenes"
+                            v-for="(imagen,n) in imagenSlider1"
                             :key="n"
                             v-slot="{ active, toggle }"
                         >
@@ -35,7 +35,7 @@
                                     justify="center"
                                 >
                                     <v-scale-transition>
-                                        <img class="slider__img" :src="require(`@/assets/img/${Enunciado[2]}/${imagen}.jpg`)" alt="2">
+                                        <img class="slider__img" :src="require(`@/assets/img/${imagen.fields.categoria}/${imagen.fields.img}`)" alt="2">
                                         <!-- <img class="slider__img" :src="require(`@/assets/img/seguros/A.jpg`)" alt="2"> -->
                                     </v-scale-transition>
                                 </v-row>
@@ -49,19 +49,16 @@
 </template>
 
 <script>
-
 export default {
     name: 'Slider1',
     data() {
         return {
             model: null,
-            imagenes : this.imagenSlider1,
-            Enunciado: this.EnunciadoSlider1
         }
     },
     props:{
-        imagenSlider1: null,
-        EnunciadoSlider1: null
+        imagenSlider1: [],
+        EnunciadoSlider1: []
     }
 }
 </script>
