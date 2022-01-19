@@ -73,7 +73,7 @@ export default {
   bottom: -40px;
   width: auto;
   height: auto;
-  background-image: url(../assets/img/Banner.png);
+  background-image: url(../assets/img/Banner.webp);
   background-size: cover;
   -webkit-filter: blur(2px);
   z-index: 0;

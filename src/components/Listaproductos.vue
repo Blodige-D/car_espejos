@@ -54,6 +54,8 @@ export default {
     padding: 80px;
     box-shadow: 0 3px 100px rgb(0 0 0 / 0.2);
     margin: 80px 20px 0;
+    height: 540px;
+    overflow: auto;
 }
 .list__img{
     width: 276.02px;
