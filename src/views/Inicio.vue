@@ -33,7 +33,7 @@ export default {
   components: { Banner, Slider2, Parallax, Slider1, Servicios, Mapa },
   data() {
     return {
-      ruta_imagen: "assets/img/Banner.png",
+      ruta_imagen: "assets/img/Banner.webp",
       data_Varias: [],
       imagen_parallax: ["Banner_Espejos", "Banner_Cerrajeria"],
       data_Espejos: [],

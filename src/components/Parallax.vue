@@ -3,7 +3,7 @@
       <section class="parallax">
             <v-parallax
                 height="300"
-                :src="require(`@/assets/img/${imagen}.png`)"
+                :src="require(`@/assets/img/${imagen}.webp`)"
             ></v-parallax>
       </section>
   </div>
