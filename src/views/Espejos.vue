@@ -30,6 +30,15 @@
       :imagenList="data_Seguros"
       :EnunciadoList="Enunciado_Seguros"
     />
+
+    <slider-1
+      :imagenSlider1="data_Direccionales"
+      :EnunciadoSlider1="Enunciado_Direccionales"
+    />
+    <listaproductos
+      :imagenList="data_Direccionales"
+      :EnunciadoList="Enunciado_Direccionales"
+    />
   </div>
 </template>
 
@@ -68,6 +77,12 @@ export default {
         "Seguros para Espejos",
         "Seguros de Espejos, Contactanos para todos los productos y servicios a tu orden, Para todo tipo de Carro, Camioneta, Deportivo o Moto",
         "segum",
+      ],
+      data_Direccionales:[],
+      Enunciado_Direccionales: [
+        "Direccionales",
+        "Direccionales, Contactanos para todos los productos y servicios a tu orden, Para todo tipo de Carro, Camioneta, Deportivo o Moto",
+        "direccionales",
       ],
     };
   },

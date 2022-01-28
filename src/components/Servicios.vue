@@ -30,7 +30,7 @@
                 </div>
               </li>
               <li>
-                <a class="list-contact-link font" href="https://api.whatsapp.com/send?phone=+573132639099&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!">+57313 639099</a>
+                <a class="list-contact-link font" href="https://api.whatsapp.com/send?phone=+573132639099&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!">+57 3132639099</a>
               </li>
             </ul>
           </article>
@@ -58,7 +58,7 @@
                 </div>
               </li>
               <li>
-                <a class="list-contact-link font" href="https://api.whatsapp.com/send?phone=+573106871844&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!">+573106871844</a>
+                <a class="list-contact-link font" href="https://api.whatsapp.com/send?phone=+573106871844&text=Hola, Necesito mas informacion de los productos que vimos en tu pagina!">+57 3106871844</a>
               </li>
             </ul>
           </article>

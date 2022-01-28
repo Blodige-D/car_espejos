@@ -29,14 +29,7 @@
       :EnunciadoList="Enunciado_Parabrisas"
     />
 
-    <slider-1
-      :imagenSlider1="data_Direccionales"
-      :EnunciadoSlider1="Enunciado_Direccionales"
-    />
-    <listaproductos
-      :imagenList="data_Direccionales"
-      :EnunciadoList="Enunciado_Direccionales"
-    />
+    
   </div>
 </template>
 
@@ -69,12 +62,7 @@ export default {
         "Parabrisas, Contactanos para todos los productos y servicios a tu orden, Para todo tipo de Carro, Camioneta, Deportivo o Moto",
         "parabrisas",
       ],
-      data_Direccionales:[],
-      Enunciado_Direccionales: [
-        "Direccionales",
-        "Direccionales, Contactanos para todos los productos y servicios a tu orden, Para todo tipo de Carro, Camioneta, Deportivo o Moto",
-        "direccionales",
-      ],
+      
     };
   },
   methods: {
